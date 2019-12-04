@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "Mommes Test",
-    "publisher": "Momme",
+    "title": "Mommes 1. Test",
+    "publisher": "MJ",
     "description": "Installs Mommes Test using the Chocolatey package manager",
     "tags": [
         "Windows",
