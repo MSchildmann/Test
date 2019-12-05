@@ -10,6 +10,6 @@
     "iconUri": "https://chocolatey.org/content/packageimages/chocolatey.0.10.15.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'Notepad++', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./batch-test.cmd -Packages ')]"
     }
 }
