@@ -10,6 +10,6 @@
     "iconUri": "http://icons.iconarchive.com/icons/harwen/pleasant/256/MS-DOS-Batch-File-icon.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./test-batch.cmd"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \ ./test-batch.cmd')]"
     }
 }
