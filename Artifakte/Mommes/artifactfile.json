@@ -1,15 +1,15 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "Mommes Test 2",
-    "publisher": "Momme",
-    "description": "Installs Mommes 2ter Test using the Chocolatey package manager",
+    "title": "Mommes Batch Test",
+    "publisher": "MJ",
+    "description": "Batch Test creates directory and file on target system",
     "tags": [
         "Windows",
-        "Mommes"
+        "MJ"
     ],
-    "iconUri": "https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/7zip.svg",
+    "iconUri": "http://icons.iconarchive.com/icons/harwen/pleasant/256/MS-DOS-Batch-File-icon.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', '7zip', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./test-batch.cmd "')]"
     }
 }
