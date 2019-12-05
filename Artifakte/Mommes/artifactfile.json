@@ -10,6 +10,6 @@
     "iconUri": "http://icons.iconarchive.com/icons/harwen/pleasant/256/MS-DOS-Batch-File-icon.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass ./test-batch.cmd -Packages')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'Test-Batch', '\"')]"
     }
 }
