@@ -10,6 +10,6 @@
     "iconUri": "https://chocolatey.org/content/packageimages/chocolatey.0.10.15.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& https://github.com/MSchildmann/Test/blob/master/Artifakte/Mommes/test-batch.cmd -Packages ')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& https://github.com/MSchildmann/Test/blob/master/Artifakte/Mommes/test-batch.cmd ')]"
     }
 }
